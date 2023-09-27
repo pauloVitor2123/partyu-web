@@ -9,3 +9,15 @@ export default {
     dark_gray: "#292929",
   },
 };
+
+// export default {
+//   styles: {
+//     global: () => ({
+//       "html, body": {
+//         fontSize: "md",
+//         fontFamily: "Poppins",
+//         color: "#262626",
+//       },
+//     }),
+//   },
+// };

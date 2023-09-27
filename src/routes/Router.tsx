@@ -10,9 +10,9 @@ export const Router = () => {
   return (
     <Routes>
       <Route path="*" element={<NotFound />} />
-      <Route index element={<LandingPage />} />
+      <Route index path="landing-page" element={<LandingPage />} />
       <Route path="" element={<AuthenticatedUserRedirect />}>
-        <Route path="login" element={<Login />} />
+        <Route path="" element={<Login />} />
       </Route>
       <Route path="" element={<ProtectedRoute />}>
         <Route path="dashboard" element={<Dashboard />} />
